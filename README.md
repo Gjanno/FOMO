@@ -52,4 +52,7 @@ To delve into the technologies used in this project, visit the following resourc
 - [Google Maps Platform](https://cloud.google.com/maps-platform)
 - [Picasso Image Library](https://square.github.io/picasso/)
 
+[![Watch the video](https://img.youtube.com/vi/1HMQI-rCuig/0.jpg)](https://www.youtube.com/watch?v=1HMQI-rCuig)
+
+
 Thank you for choosing FOMO! Stay connected, stay informed, and never miss out on the excitement.
