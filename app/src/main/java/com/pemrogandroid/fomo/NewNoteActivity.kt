@@ -64,6 +64,8 @@ class NewNoteActivity : AppCompatActivity()
             latitude= place.latLng.latitude
             longitude=place.latLng.longitude
             locationSelected.setText(locationName)
+
+
         }
         else if(result.resultCode==AutocompleteActivity.RESULT_ERROR)
         {
@@ -236,7 +238,7 @@ class NewNoteActivity : AppCompatActivity()
     private fun initializePlace()
     {
         //initialize Places
-        Places.initialize(applicationContext,"AIzaSyDWaThM0omGNYObh_zUvcp7ycw_PhxSQEs")
+        Places.initialize(applicationContext,"Key")
         locationSelected.isFocusable=false
         locationSelected.setOnClickListener {
             //initialize place field list
