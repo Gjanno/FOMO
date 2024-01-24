@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">FOMO</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="click_to_login">Click To login</string>
+    <string name="click_to_register">Click to Register</string>
+    <string name="save">Save</string>
+    <string name="logout">Logout</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="priority">Priority</string>
+    <string name="prioritys">Priority:</string>
+    <string name="descriptions">Description</string>
+    <string name="sport">Sport</string>
+    <string name="date_amp_time"><![CDATA[Date &Time]]></string>
+    <string name="name">Name</string>
+    <string name="by">By:</string>
+    <string name="bys">By:</string>
+    <string name="username">Username</string>
+    <string name="choose_genre">Choose Genre:</string>
+    <string name="save_note">Save Note</string>
+    <string name="save_activity">Save Activity</string>
+    <string name="insert_new_activity">Insert New Activity</string>
+    <string name="enter_location">Enter Location</string>
+    <string name="label_datetime_dialog">Date and time</string>
+    <string name="clean">Clean</string>
+    <string name="date_and_time">Date and Time</string>
+    <string name="date_time">Date/Time:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_activities">My Activities</string>
+    <string name="post_by">POST BY:</string>
+
+
+</resources>

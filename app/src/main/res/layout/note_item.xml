@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                   android:layout_width="260dp"
+                                   android:layout_height="wrap_content"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   android:layout_marginTop="8dp"
+                                   android:layout_marginStart="8dp"
+                                   android:layout_marginEnd="8dp"
+                                   app:cardCornerRadius="8dp"
+                                   android:elevation="8dp"
+>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp">
+
+        <ImageView
+                android:id="@+id/image_event"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/upload_image_icon"
+
+        />
+
+        <TextView
+                android:id="@+id/text_view_title"
+                android:layout_below="@id/image_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:ellipsize="end"
+                android:text="Title"
+                android:maxLines="1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+
+        <TextView
+                android:id="@+id/by_placeholder"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/bys"
+                android:layout_below="@id/text_view_title"
+
+        />
+        <TextView
+                android:id="@+id/user_details"
+                android:text="@string/username"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_below="@id/text_view_title"
+                android:layout_toEndOf="@+id/by_placeholder"
+
+        />
+        <TextView
+                android:id="@+id/Date_displayed"
+                android:text="@string/date_time"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_below="@id/by_placeholder"
+
+        />
+        <TextView
+                android:id="@+id/showing_date_time"
+                android:text="@string/date_time"
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:layout_below="@id/user_details"
+                android:layout_toEndOf="@+id/Date_displayed"
+
+
+        />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

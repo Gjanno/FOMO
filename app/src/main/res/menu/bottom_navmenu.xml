@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <item
+            android:id="@+id/ActivityMenu"
+            android:title="Activity"
+            android:icon="@drawable/add_activity"
+
+    />
+    <item
+            android:id="@+id/AddActivity"
+            android:title="Add Activity"
+            android:icon="@drawable/baseline_add_box_24"
+
+    />
+
+    <item
+            android:id="@+id/ProfileMenu"
+            android:title="Profile"
+            android:icon="@drawable/add_person"
+    />
+
+
+</menu>

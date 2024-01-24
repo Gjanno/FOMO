@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "41214070011",
+    "project_id": "fomo-8263a",
+    "storage_bucket": "fomo-8263a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41214070011:android:6519e332ffe43df0e8b45e",
+        "android_client_info": {
+          "package_name": "com.pemrogandroid.fomo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgwRCPR6kRSLSEC6jH8RKwsqPWTocVJxc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
