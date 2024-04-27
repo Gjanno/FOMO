@@ -238,7 +238,7 @@ class NewNoteActivity : AppCompatActivity()
     private fun initializePlace()
     {
         //initialize Places
-        Places.initialize(applicationContext,"Key")
+        Places.initialize(applicationContext,"AIzaSyDWaThM0omGNYObh_zUvcp7ycw_PhxSQEs")
         locationSelected.isFocusable=false
         locationSelected.setOnClickListener {
             //initialize place field list

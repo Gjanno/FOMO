@@ -37,7 +37,7 @@
                     android:value=".MainActivity"/>
             <meta-data
                     android:name="com.google.android.geo.API_KEY"
-                    android:value="InsertKey"/>
+                    android:value="AIzaSyDWaThM0omGNYObh_zUvcp7ycw_PhxSQEs"/>
         </activity>
         <activity
                 android:name=".Registration"
